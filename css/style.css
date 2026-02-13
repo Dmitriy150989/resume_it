@@ -1,0 +1,583 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+}
+.wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #1e2939;
+  width: 370px;
+  padding-bottom: 40px;
+  box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.15);
+}
+.photo {
+  width: 370px;
+}
+.about-me-conteiner {
+  /* padding-top: 110px; 
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;*/
+  padding: 80px 0px 80px 80px;
+}
+.contacts {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+.contacts-tittle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contacts-link-type {
+  /* font-size:14px ;
+    font-weight:700 ;
+    line-height: 24px; */
+  color: #fff;
+  margin-right: 10px;
+}
+.contacts-link {
+  /* font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px; */
+  color: #fff;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.contacts-link-type :hover {
+  text-decoration: underline;
+}
+
+.Tech-Skills {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+.Tech-Skills-tittle {
+  /* font-size:22px ;
+    font-weight:700 ;
+    line-height: 24px; */
+  color: #fff;
+  margin-bottom: 20px;
+}
+.Tech-Skills-item {
+  /* font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px; */
+  color: #ff6b08;
+  margin-left: 15px;
+}
+.Tech-Skills-text {
+  color: #fff;
+}
+.Soft-Skills {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+.Soft-Skills-tittle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.Soft-Skills-item {
+  /* font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px; */
+  color: #ff6b08;
+  margin-left: 15px;
+}
+.Soft-Skills-text {
+  color: #fff;
+}
+
+.lang {
+  display: flex;
+  margin: 5px 5px 0 0;
+}
+.uk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  /* padding: 5px; */
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
+  color: #ff6b08;
+  border: #1e2939 solid 2px;
+  border-radius: 50%;
+}
+
+.uk a {
+  text-decoration: none;
+  color: #ff6b08;
+}
+.active,
+.uk:hover {
+  background-color: #1e2939;
+}
+.ru {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  /* padding: 5px; */
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
+  color: #ff6b08;
+  border: #1e2939 solid 2px;
+  border-radius: 50%;
+}
+
+.ru a {
+  text-decoration: none;
+  color: #ff6b08;
+}
+
+.active,
+.ru:hover {
+  background-color: #1e2939;
+}
+.messenger {
+  margin: 0 0 0 22px;
+  text-decoration: none;
+}
+
+/*! about me conteiner */
+
+.near-ex {
+  margin-bottom: 100px;
+}
+
+.Profession {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-bottom: 23px; */
+}
+.name {
+  color: #1e2939;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+/* .description {
+    font-size :16.5px ;
+    font-weight:400 ;
+    margin-top: 10px;
+    
+} */
+.about-me {
+  margin-bottom: 30px;
+}
+.about-me-tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-bottom: 10px; */
+}
+
+.ul-1 {
+  margin-left: 20px;
+}
+
+.near-job {
+  padding-left: 20px;
+}
+
+/* ! animation name on*/
+.name {
+  color: #1e2939;
+  background: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+}
+
+.about-me-tittle {
+  color: #1e2939;
+  font-size: 30px;
+}
+
+@keyframes text {
+  0% {
+    color: #1e2939;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 18px;
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 5px;
+    margin-bottom: -40px;
+  }
+}
+
+/* ! animations name off*/
+
+/* .projeckts-link {
+    font-size :14px ;
+    font-weight:400 ;
+    line-height:24px;
+    color:#000 ;
+} */
+/* .tech-name {
+    font-size :14px ;
+    font-weight:400 ;
+    line-height:24px;
+    color:#000 ;
+} */
+/* .dots {
+    color:#bebebe ; 
+    font-weight: 100;
+} */
+/* .projeckts-item {
+    font-weight: 700;
+    margin-left: 17px;
+} */
+/* .projeckts-conteiner {
+    margin-bottom: 55px;
+} */
+.Proffesion-tittle {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.Proffesion-tittle-1 {
+  font-size: 17.6px;
+  font-weight: 700;
+  border: #1e2939 solid 2px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 22px;
+}
+.Proffesion-tittle-1:hover {
+  background-color: #1e2939;
+  color: #fff;
+}
+
+.Proffesion-company {
+  color: #ff7011;
+  margin-left: 10px;
+  font-family: Montserrat;
+  /* font-size: 18px; */
+}
+.institute {
+  color: #ff7011;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.Proffesion-time {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+.Proff {
+  color: black;
+}
+.Proffesion-duties {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.Proffesion-duties-item {
+  /* font-size :14px ; */
+
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+.bold {
+  font-weight: 700;
+}
+
+.all-1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.5s ease-out;
+}
+.collapsible {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  cursor: pointer;
+  border: #1e2939 solid 2px;
+  border-radius: 20px;
+  width: 100%;
+  /* border: none; */
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 22px 0;
+}
+/* .fs {
+  font-size: 17.5px;
+} */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #1e2939;
+  color: #fff;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+/* .content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+ } */
+
+.collapsible:after {
+  content: "\25BC"; /*Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  /* float: right;  */
+}
+
+.collapsible:hover:after {
+  color: #fff;
+}
+.active:after {
+  content: "\25b2"; /* Unicode character for "minus" sign (-)
+	 */
+  color: #fff;
+  font-size: 16px;
+}
+
+.un {
+  margin-top: 100px;
+}
+
+.name-mobail {
+  color: #1e2939;
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.messenger {
+  margin: 0;
+}
+.link_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: #1e2939 2px solid;
+}
+.link_arrow:hover {
+  background-color: #1e2939;
+}
+svg {
+  width: 18px;
+  height: 18px;
+  fill: #ff6b08;
+}
+.l-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1e2939;
+}
+.l-link:hover {
+  color: #ff6b08;
+}
+
+.l-m {
+  margin: 20px 0;
+}
+
+.link_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.u-dots {
+  width: 46%;
+  margin-left: 20px;
+  list-style: none;
+}
+.u-dots:first-child {
+  margin-left: 0;
+}
+.ul-fl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.port_size {
+  max-width: 1200px;
+}
+.ff {
+  width: 105%;
+}
+
+.port-dir {
+  display: flex;
+}
+.port-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #ff6b08;
+  width: 114px;
+  height: 80px;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding: 15px;
+}
+.port-link:hover {
+  background-color: #fff;
+  color: #1e2939;
+}
+
+/* ! SmartPhone */
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  .photo {
+    width: 100%;
+  }
+
+  .sidebar {
+    box-shadow: none;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .wrapper {
+    margin: 0 auto;
+    box-shadow: none;
+    display: block;
+  }
+  .about-me-conteiner {
+    /* margin: 0 auto; */
+    font-size: 1.2rem;
+    /* width: 370px; */
+    padding: 0 20px;
+    box-shadow: none;
+  }
+  .Proffesion-time {
+    font-size: 1rem;
+  }
+
+  .Proffesion-duties {
+    font-size: 1.2rem;
+  }
+
+  .name {
+    display: none;
+  }
+  .name-mobail {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .exp {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .near-ex {
+    margin-bottom: 20px;
+  }
+
+  .un {
+    margin-top: 20px;
+  }
+
+  .bott {
+    margin-bottom: 30px;
+  }
+
+  .lang {
+    top: 1%;
+    right: 2%;
+    position: absolute;
+    z-index: 99999;
+  }
+  .ul-fl {
+    margin: 0 auto;
+    display: block;
+    max-height: 100%;
+  }
+  .ul-fl ul {
+    margin: 0 auto;
+  }
+  .u-dots:first-child {
+    margin: 0 auto;
+  }
+  .u-dots {
+    width: 90%;
+    margin-left: 20px;
+    list-style: none;
+  }
+  .ff {
+    width: 100%;
+  }
+}
